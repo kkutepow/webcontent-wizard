@@ -1,0 +1,14 @@
+{
+  "name": "webcontent-wizard",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Scotch",
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongodb": "^3.0.4",
+    "morgan": "~1.2.2"
+  }
+}
