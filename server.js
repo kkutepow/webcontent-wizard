@@ -7,7 +7,6 @@ const morgan = require('morgan');             // log requests to the console (ex
 const methodOverride = require('method-override'); // simulate DELETE and PUT (express4)
 const db = require('./config/db');
 const app = express();
-const router = express.Router();
 const port = 80;
 
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
